@@ -2,16 +2,16 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./Components/NavBar/NavBar";
-import NewPage from "./Pages/NewPage/NewPage";
 import Subscription from "./Pages/Subscription/Subscription";
+import Login from "./Pages/Login/Login";
 
 function App() {
   return (
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<NewPage />} />
         <Route path="/subscription" element={<Subscription />} />
+        <Route path="/" element={<Login />} />
       </Routes>
     </>
   );
