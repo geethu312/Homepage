@@ -1,4 +1,3 @@
-import React from "react";
 import { IoIosPlayCircle } from "react-icons/io";
 import "./RoutineSuggestion.css";
 import sunset from "../../Images/sunset.png";

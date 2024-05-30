@@ -1,4 +1,3 @@
-import TedX from "../TedXVideo/TedX";
 import "./Video.css";
 
 const VideoComponent = () => {

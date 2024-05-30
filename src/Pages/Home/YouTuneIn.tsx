@@ -4,8 +4,7 @@ import SimpleLineChart from "../../Components/Graph/Graph";
 import ProgressBarContainer from "../../Components/ProgressBar/ProgressBarContainer";
 import RoutineSuggestion from "../../Components/RoutineSuggestion/RoutineSuggestion";
 import SideBar from "../../Components/SideBar/SideBar";
-import Status from "../../Components/Status/Status";
-import TedX from "../../Components/TedXVideo/TedX";
+// import Status from "../../Components/Status/Status";
 import VideoComponent from "../../Components/Video/Video";
 import "./YouTuneIn.scss";
 
@@ -15,9 +14,7 @@ const YouTuneIn = () => {
       <SideBar />
       <div className="content-area">
         <div className="top-body">
-          <div className="inside-top">
-            <Status />
-          </div>
+          <div className="inside-top">{/* <Status /> */}</div>
           <div className="inside-top">
             <Calendar />
           </div>

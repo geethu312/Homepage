@@ -72,7 +72,7 @@ const Subscription = () => {
       axios.patch(
         "https://admin-stage.youtunein.com/api/v1/enterprise-client-manager-subscription/seat/update",
         {
-          organizationId: 4,
+          organizationId: 1,
           seats: 3,
         },
         {
