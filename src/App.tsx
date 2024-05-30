@@ -12,6 +12,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/subscription" element={<Subscription />} />
+        <Route path="/" element={<Login />} />
       </Routes>
     </>
   );
